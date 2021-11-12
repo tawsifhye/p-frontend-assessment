@@ -5,7 +5,7 @@ const Banner = () => {
     const settings = {
         // dots: true,
         infinite: true,
-        speed: 300,
+        speed: 500,
         autoplay: true,
         autoplaySpeed: 5000,
         slidesToShow: 1,
