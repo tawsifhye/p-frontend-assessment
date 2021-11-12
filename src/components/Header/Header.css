@@ -52,6 +52,7 @@
     }
 
     .hamburger-custom-navbar li {
+        padding: 10px 0;
         border-bottom: 1px solid #000000;
     }
 }
@@ -90,7 +91,6 @@
     }
 
     /* changing hamburger menu style */
-    .self-navbar {}
 
     .hamburger-custom-navbar {
         text-align: center;
@@ -99,6 +99,7 @@
     }
 
     .hamburger-custom-navbar li {
+        padding: 10px 0;
         border-bottom: 1px solid #000000;
     }
 }
