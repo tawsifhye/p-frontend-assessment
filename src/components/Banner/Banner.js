@@ -2,8 +2,6 @@ import React from 'react';
 import Slider from 'react-slick';
 import './Banner.css'
 const Banner = () => {
-
-
     const settings = {
         // dots: true,
         infinite: true,
@@ -16,7 +14,7 @@ const Banner = () => {
     };
     return (
         <>
-            <div className="home-banner-container">
+            <div className="home-banner-container mb-5">
                 <div className=" container-fluid home-banner">
                     <div className="custom-font-home container w-50">
                         <Slider {...settings} className="slider">
