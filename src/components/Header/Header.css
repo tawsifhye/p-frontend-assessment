@@ -1,5 +1,4 @@
 .header-container {
-    /* margin-left: 10%; */
     position: absolute;
     top: 0;
     z-index: 999;
@@ -11,9 +10,6 @@
 
 
 @media (max-width: 768px) {
-    .header-container {
-        margin-left: 0;
-    }
 
     /* Sliding hamburger navbar right */
     .navbar-collapse {
@@ -42,8 +38,10 @@
         transition: left 0.3s ease-in;
     }
 
+    /* Sliding hamburger navbar right */
+
+
     /* changing hamburger menu style */
-    .self-navbar {}
 
     .hamburger-custom-navbar {
         text-align: center;
@@ -89,6 +87,8 @@
         -moz-transition: left 0.3s ease-in;
         transition: left 0.3s ease-in;
     }
+
+    /* Sliding hamburger navbar right */
 
     /* changing hamburger menu style */
 
