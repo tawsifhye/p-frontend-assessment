@@ -1,5 +1,104 @@
 .header-container {
+    /* margin-left: 10%; */
     position: absolute;
     top: 0;
-    z-index: 10;
+    z-index: 999;
+}
+
+.nav-item a {
+    color: #0A0A0A !important;
+}
+
+
+@media (max-width: 768px) {
+    .header-container {
+        margin-left: 0;
+    }
+
+    /* Sliding hamburger navbar right */
+    .navbar-collapse {
+        position: absolute;
+        top: 54px;
+        left: 0;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+
+    .navbar-collapse.collapsing {
+        height: auto;
+        -webkit-transition: left 0.3s ease;
+        -o-transition: left 0.3s ease;
+        -moz-transition: left 0.3s ease;
+        transition: left 0.3s ease;
+        left: -100%;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        -webkit-transition: left 0.3s ease-in;
+        -o-transition: left 0.3s ease-in;
+        -moz-transition: left 0.3s ease-in;
+        transition: left 0.3s ease-in;
+    }
+
+    /* changing hamburger menu style */
+    .self-navbar {}
+
+    .hamburger-custom-navbar {
+        text-align: center;
+        background-color: #FBF6F6;
+        color: #000000 !important;
+    }
+
+    .hamburger-custom-navbar li {
+        border-bottom: 1px solid #000000;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and 991) */
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    .header-container {
+        margin-left: 0;
+    }
+
+    /* Sliding hamburger navbar right */
+    .navbar-collapse {
+        position: absolute;
+        top: 54px;
+        left: 0;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+
+    .navbar-collapse.collapsing {
+        height: auto;
+        -webkit-transition: left 0.3s ease;
+        -o-transition: left 0.3s ease;
+        -moz-transition: left 0.3s ease;
+        transition: left 0.3s ease;
+        left: -100%;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        -webkit-transition: left 0.3s ease-in;
+        -o-transition: left 0.3s ease-in;
+        -moz-transition: left 0.3s ease-in;
+        transition: left 0.3s ease-in;
+    }
+
+    /* changing hamburger menu style */
+    .self-navbar {}
+
+    .hamburger-custom-navbar {
+        text-align: center;
+        background-color: #FBF6F6;
+        color: #000000 !important;
+    }
+
+    .hamburger-custom-navbar li {
+        border-bottom: 1px solid #000000;
+    }
 }
