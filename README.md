@@ -1,10 +1,10 @@
 Live site Link
 [https://p-assessment.netlify.app/](https://p-assessment.netlify.app/).
 
-##Technology Used 
+## Technology Used 
 -React.js
 -Bootstrap5 CDN
-- React slick carousel 
+-React slick carousel 
 -Netlify(Hosting)
 
 
