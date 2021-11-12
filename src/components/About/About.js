@@ -4,17 +4,15 @@ import './About.css'
 const About = () => {
     return (
         <>
-            <div class="container pt-5">
-                <div class="row d-flex ">
+            <div class="container pt-5" id="gallery">
+                <div class="row d-flex mt-5 pt-5">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6">
+                        <div className="text-center mb-5">
+                            <img className="p-3 gallery-img1" src={image} alt="" />
+                            <img className="p-3" src={image} alt="" />
+                            <img className="p-3 gallery-img3" src={image} alt="" />
 
-                        <img className="p-3 gallery-img1" src={image} alt="" />
-
-
-                        <img className="p-3" src={image} alt="" />
-
-
-                        <img className="p-3 gallery-img3" src={image} alt="" />
+                        </div>
 
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 text-center about-us mb-2">

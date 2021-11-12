@@ -35,3 +35,16 @@
     font-size: 20px;
     color: rgb(29, 28, 28) !important;
 }
+
+.banner-btn {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #C74E4C;
+    padding: 0 5px;
+    border-radius: 15px;
+}
+
+.banner-btn:hover {
+    color: white;
+    background-color: #C74E4C;
+}
